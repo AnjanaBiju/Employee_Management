@@ -1,0 +1,76 @@
+</html>
+	<head>
+	<title>employee</title>
+	<link rel="stylesheet" href="style.css">
+	
+	</head>
+	<body>
+	<img src="logo01.jpg">
+	<div class="navbar" >
+  		<a href="home.php">Home</a>
+  		<a href ="addemp.html">Add</a>
+	</div>
+	<form name=form1 action=register.php method=POST>
+		<table border =0 align=center width =500 height=400>
+		<tr>
+		<td>
+		Name
+		</td>
+		<td>
+		<input type ="text" name=text1 required>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Role
+		</td>
+		<td>
+		<input type ="text" name=text2 required>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Mobile
+		</td>
+		<td>
+		<input type ="text" name=text3 required>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Manager
+		</td>
+		<td>
+		<input type ="text" name=text4 required>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Office
+		</td>
+		<td>
+		<input type ="text" name=text5 required>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Joining Date
+		</td>
+		<td>
+		<input type ="date" name=text6 required>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		
+		</td>
+		<input type=hidden id="hid" name=hid>
+		<td>
+		<input type="submit" value="Submit" id="submit"onclick="hid.value='submit'" class="button">
+		</td>
+		</tr>
+		</table>
+	</form>
+	
+	</body>
+</html>

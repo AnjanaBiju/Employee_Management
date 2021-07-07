@@ -1,0 +1,49 @@
+body {
+
+  font-family: Arial, Helvetica, sans-serif;         
+
+}
+
+.navbar {
+ 
+  overflow: hidden;
+  margin-left:5;
+
+}
+
+.navbar a {
+ 
+  float: left;
+  font-size: 16px;
+  color: black;
+	
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover 
+{
+  background-color: #1E90FF;
+  margin-left:15;
+}
+.boxed {
+  border: 1px solid green ;
+}
+.button {
+  background-color: #1E90FF;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+*{
+margin:0;
+padding:0;
+}
+html{
+scroll-behaviour:smooth;
+font-family:tahoma;
+}
